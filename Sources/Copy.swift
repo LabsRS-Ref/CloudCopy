@@ -62,7 +62,7 @@ class Copy {
                     saved.recordChangeTag = nil
                     saved.proposedName = saved.recordName
                     saved.recordName = nil
-                    toSave.append(c)
+                    toSave.append(saved)
                 }
                 
                 let saveCompletion: ((CloudResult<CloudObject>) -> ()) = {
